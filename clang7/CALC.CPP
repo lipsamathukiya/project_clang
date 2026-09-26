@@ -62,19 +62,19 @@ void main()
 		break;
 
 	    case 2:
-		printf("\nSubtraction = %d",a,b,sub(a,b));
+		printf("\nSubtraction %d and %d is = %d",a,b,sub(a,b));
 		break;
 
 	    case 3:
-		printf("\nMultiplication = %d",a,b,mul(a,b));
+		printf("\nMultiplication %d and %d is= %d",a,b,mul(a,b));
 		break;
 
 	    case 4:
-		printf("\nDivision = %d",a,b,divi(a,b));
+		printf("\nDivision %d and %d is = %d",a,b,divi(a,b));
 		break;
 
 	    case 5:
-		printf("\nModulus = %d",a,b,mod(a,b));
+		printf("\nModulus %d and %d is= %d",a,b,mod(a,b));
 		break;
 
 	    default:
