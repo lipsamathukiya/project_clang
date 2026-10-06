@@ -1,3 +1,4 @@
+/*pattern 1*/
 #include<stdio.h>
 #include<conio.h>
 void main()

@@ -1,12 +1,13 @@
-/*Temperature Converter */
+/*Develop a program that converts temperature from degrees celsius to
+ fahrenheit using the formula :f=(9/5*c)+32*/
 #include<stdio.h>
 #include<conio.h>
 void main()
 {
-	float c,f;
 	clrscr();
+	float c,f;
 	printf("enter temperature in celsius:");
-	scanf("%f",c);
+	scanf("%f",&c);
 	f=(9.0/5.0*c)+32;
 	printf("temperature in fahrenheit:%.2f",f);
 	getch();

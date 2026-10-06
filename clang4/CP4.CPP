@@ -1,3 +1,4 @@
+ /*pattern 4*/
 #include<stdio.h>
 #include<conio.h>
 void main()
@@ -8,14 +9,14 @@ void main()
 	{
 		for(s=5;s>r;s--)
 		{
-		printf(" ");
+		printf("  ");
 		}
 		for(c=1;c<=r;c++)
 		{
 		if(c%2==1)
-		printf("1");
+		printf("1 ");
 		else
-		printf("0");
+		printf("0 ");
 	}
 	printf("\n");
 	}

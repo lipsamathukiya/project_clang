@@ -10,17 +10,16 @@
 
     <style>
         body {
-            background: #181818;
+            background: #0f172a;
             min-height: 100vh;
             font-family: Arial, sans-serif;
         }
 
-        /* Header */
         header {
-            background: linear-gradient(135deg, #ff4fa3, #ff2d92);
+            background: linear-gradient(135deg, #0b1f3a, #163b68);
             color: white;
             padding: 25px 0;
-            box-shadow: 0 5px 20px rgba(255, 79, 163, 0.4);
+            box-shadow: 0 5px 20px rgba(11, 31, 58, 0.5);
         }
 
         .header-title {
@@ -34,16 +33,15 @@
 
         .header-subtitle {
             text-align: center;
-            color: #ffe4f1;
+            color: #dbeafe;
             margin-top: 8px;
             font-size: 16px;
         }
 
-        /* Cards */
         .program-card {
             height: 280px;
-            background: #242424;
-            border: 2px solid #ff4fa3;
+            background: #172554;
+            border: 2px solid #1e4b7a;
             border-radius: 20px;
             padding: 25px;
             text-align: center;
@@ -62,49 +60,46 @@
         .program-card:hover {
             transform: translateY(-8px);
             box-shadow:
-                0 0 20px rgba(255, 79, 163, 0.5),
-                0 0 35px rgba(255, 79, 163, 0.3);
+                0 0 20px rgba(30, 75, 122, 0.6),
+                0 0 35px rgba(30, 75, 122, 0.4);
         }
 
         .program-card h3 {
-            color: #ff4fa3;
+            color: #60a5fa;
             font-weight: bold;
             margin-bottom: 15px;
         }
 
         .program-card p {
-            color: #e4e4e4;
+            color: #dbeafe;
             margin-bottom: 25px;
             line-height: 1.6;
         }
 
-        /* Button */
-        .btn-custom {
-            background: linear-gradient(135deg, #ff4fa3, #ff2d92);
-            color: white;
-            border: none;
-            border-radius: 10px;
-            padding: 10px 22px;
-            text-decoration: none;
-            font-weight: 600;
-            transition: 0.3s;
-            box-shadow: 0 4px 10px rgba(255, 79, 163, 0.4);
-        }
+       .btn-custom {
+    background: white;
+    color: #0b1f3a;
+    border: 2px solid #0b1f3a;
+    border-radius: 10px;
+    padding: 10px 22px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s;
+}
 
-        .btn-custom:hover {
-            background: linear-gradient(135deg, #ff66b2, #ff1493);
-            color: white;
-            transform: translateY(-3px);
-        }
+.btn-custom:hover {
+    background: #0b1f3a;
+    color: white;
+    transform: translateY(-3px);
+}
 
-        /* Footer */
         footer {
-            background: linear-gradient(135deg, #ff4fa3, #ff2d92);
+            background: linear-gradient(135deg, #0b1f3a, #163b68);
             color: white;
             text-align: center;
             padding: 20px;
             margin-top: 60px;
-            box-shadow: 0 -5px 20px rgba(255, 79, 163, 0.4);
+            box-shadow: 0 -5px 20px rgba(11, 31, 58, 0.5);
         }
 
         footer p {
@@ -112,7 +107,6 @@
             font-size: 16px;
         }
 
-        /* Responsive */
         @media(max-width:768px) {
 
             .header-title {
@@ -130,7 +124,6 @@
 
 <body>
 
-    <!-- Header -->
     <header>
         <div class="container">
             <h1 class="header-title">C Language Programs</h1>
@@ -144,7 +137,6 @@
 
         <div class="row g-4 justify-content-center">
 
-            <!-- Multi Utility -->
             <div class="col-md-6">
                 <div class="program-card">
                     <h3>Multi Utility Program</h3>
@@ -154,12 +146,11 @@
                     </p>
 
                     <a href="clang1/multi.html" class="btn-custom">
-                        View Program
+                        View All Program
                     </a>
                 </div>
             </div>
 
-            <!-- Grade Calculator -->
             <div class="col-md-6">
                 <div class="program-card">
                     <h3>Simple Grade Calculator</h3>
@@ -169,12 +160,11 @@
                     </p>
 
                     <a href="clang2/simple.html" class="btn-custom">
-                        View Program
+                        View All Program
                     </a>
                 </div>
             </div>
 
-            <!-- Loop -->
             <div class="col-md-6">
                 <div class="program-card">
                     <h3>Loop Programs</h3>
@@ -189,7 +179,6 @@
                 </div>
             </div>
 
-            <!-- Pattern -->
             <div class="col-md-6">
                 <div class="program-card">
                     <h3>Pattern Programs</h3>
@@ -204,7 +193,6 @@
                 </div>
             </div>
 
-            <!-- Assocment -->
             <div class="col-md-6">
                 <div class="program-card">
                     <h3>Array Programs</h3>
@@ -219,7 +207,6 @@
                 </div>
             </div>
 
-            <!-- Filament -->
             <div class="col-md-6">
                 <div class="program-card">
                     <h3>Filament Programs</h3>
@@ -233,45 +220,51 @@
                     </a>
                 </div>
             </div>
+
             <div class="col-md-6">
                 <div class="program-card">
                     <h3>Calculator Programs</h3>
-                    <p>Basic arithmetic operations using C language.</p>
+                    <p>
+                        Basic arithmetic operations using C language.
+                    </p>
+
                     <a href="clang7/cal.html" class="btn-custom">
                         View All Programs
                     </a>
                 </div>
             </div>
+
             <div class="col-md-6">
                 <div class="program-card">
                     <h3>Indicator Programs</h3>
-                    <p>Explore programs like String Length and Cube of a Number.</p>
+                    <p>
+                        Explore programs like String Length and Cube of a Number.
+                    </p>
 
                     <a href="clang8/inde.html" class="btn-custom">
                         View All Programs
                     </a>
                 </div>
             </div>
+
             <div class="col-md-6">
                 <div class="program-card">
-                    <h3>Final practical</h3>
-                    <p>Explore programs like pattern, odd number, even number,average,subject mark</p>
+                    <h3>Final Practical</h3>
+                    <p>
+                        Explore programs like pattern, odd number, even number, average, subject mark
+                    </p>
 
                     <a href="final/index.html" class="btn-custom">
                         View All Programs
                     </a>
                 </div>
             </div>
+
         </div>
 
     </div>
 
-    <!-- Footer -->
-    <footer>
-        <p>
-            © 2026 C Language Programs | Developed By Lipsa Mathukiya
-        </p>
-    </footer>
+   
 
 </body>
 

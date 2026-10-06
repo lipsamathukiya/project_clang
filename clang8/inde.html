@@ -10,70 +10,69 @@
 <style>
 
 body{
-    background:#1a1a1a;
+    background:#0f172a;
     font-family:Arial,sans-serif;
 }
 
-/* Header */
 header{
-    background:linear-gradient(135deg,#ff4da6,#d63384);
+    background:linear-gradient(135deg,#0b1f3a,#163b68);
     color:white;
     padding:25px 0;
-    box-shadow:0 4px 12px rgba(214,51,132,0.3);
+    box-shadow:0 5px 20px rgba(11,31,58,0.5);
 }
 
 .header-title{
     text-align:center;
-    font-size:38px;
+    font-size:40px;
     font-weight:bold;
     margin:0;
+    color:white;
 }
 
 .header-subtitle{
     text-align:center;
-    color:#ffe6f2;
+    color:#dbeafe;
     margin-top:8px;
     font-size:16px;
 }
 
-/* Cards */
 .program-card{
-    height:250px;
-    background:#2d2d2d;
-    border:1px solid #ff80bf;
+    background:#172554;
+    border:2px solid #1e4b7a;
     border-radius:20px;
-    text-align:center;
     padding:25px;
+    text-align:center;
+    height:220px;
 
     display:flex;
     flex-direction:column;
     justify-content:center;
     align-items:center;
 
-    transition:0.3s;
-
-    box-shadow:0 6px 15px rgba(0,0,0,0.3);
+    transition:0.4s;
+    box-shadow:0 6px 15px rgba(0,0,0,0.4);
 }
 
 .program-card:hover{
     transform:translateY(-8px);
-    box-shadow:0 8px 20px rgba(255,77,166,0.3);
+    box-shadow:
+    0 0 20px rgba(30,75,122,0.6),
+    0 0 35px rgba(30,75,122,0.4);
 }
 
 .program-card h3{
-    color:#ff80bf;
+    color:#60a5fa;
     font-weight:bold;
     margin-bottom:15px;
 }
 
 .program-card p{
-    color:#f1f1f1;
+    color:#dbeafe;
     margin-bottom:25px;
 }
 
-/* Button */
 .btn-custom{
-    background:#ff4da6;
+    background:linear-gradient(135deg,#0b1f3a,#163b68);
     color:white;
     border:none;
     border-radius:10px;
@@ -81,19 +80,18 @@ header{
     font-weight:600;
     text-decoration:none;
     display:inline-block;
-
-    box-shadow:0 4px 10px rgba(255,77,166,0.3);
+    transition:0.3s;
 }
 
 .btn-custom:hover{
-    background:#e60073;
+    background:linear-gradient(135deg,#163b68,#2563a6);
     color:white;
     transform:translateY(-2px);
 }
-/* Video Box */
+
 .video-box{
-    background:#242424;
-    border:2px solid #ff4fa3;
+    background:#172554;
+    border:2px solid #1e4b7a;
     border-radius:20px;
     padding:25px;
     margin-top:50px;
@@ -102,7 +100,7 @@ header{
 
 .video-title{
     text-align:center;
-    color:#ff4fa3;
+    color:#60a5fa;
     margin-bottom:20px;
     font-weight:bold;
 }
@@ -110,9 +108,8 @@ header{
 video{
     width:100%;
     border-radius:12px;
-    border:2px solid #ff4fa3;
+    border:2px solid #1e4b7a;
 }
-
 </style>
 </head>
 

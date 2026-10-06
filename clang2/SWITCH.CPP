@@ -1,4 +1,4 @@
-/* switch */
+/* switch case */
 #include<stdio.h>
 #include<conio.h>
 

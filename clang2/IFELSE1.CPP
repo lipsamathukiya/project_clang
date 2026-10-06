@@ -1,4 +1,4 @@
-/* if else */
+/*  ladder if else */
 #include<stdio.h>
 #include<conio.h>
 
